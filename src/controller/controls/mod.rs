@@ -6,6 +6,7 @@ mod scroll;
 mod scroll_mt;
 mod volume;
 mod zoom;
+mod zoom_svg;
 
 pub use self::media::*;
 pub use self::media_with_volume::*;
@@ -15,3 +16,4 @@ pub use self::scroll::*;
 pub use self::scroll_mt::*;
 pub use self::volume::*;
 pub use self::zoom::*;
+pub use self::zoom_svg::*;
